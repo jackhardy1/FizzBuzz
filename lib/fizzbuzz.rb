@@ -7,6 +7,7 @@ def function (number)
     return "fizz"
   elsif number % 5 == 0
     return "buzz"
-end
+  end
+  number
 end
 end

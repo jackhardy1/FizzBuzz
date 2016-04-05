@@ -33,5 +33,11 @@ describe Fizzbuzz do
     expect(fizzbuzz.function(20)).not_to eq "Fizzbuzz"
     end
   end
+  
+  context "All other numbers" do
+  it "Will return number" do
+    expect(fizzbuzz.function(4)).to eq 4
+  end
+end
 end
 end
