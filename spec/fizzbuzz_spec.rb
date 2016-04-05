@@ -20,5 +20,9 @@ it "It will return buzz if number is divisible by 5" do
   expect(fizzbuzz.function(5)).to eq "buzz"
 end
 
+it "It will not return buzz if number is not divisible by 5" do
+  expect(fizzbuzz.function(4)).not_to eq "buzz"
+end
+
 end
 end
