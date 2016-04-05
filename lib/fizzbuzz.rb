@@ -1,9 +1,8 @@
 class Fizzbuzz
 
 def function (number)
+  if number % 3 == 0
+    return "fizz"
   end
 end
-
-def multiply
-  3
 end
