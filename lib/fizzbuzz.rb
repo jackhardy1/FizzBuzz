@@ -1,10 +1,12 @@
 class Fizzbuzz
 
 def function (number)
-  if number % 3 == 0
+  if number % 3 == 0 &&  number % 5 == 0
+    return "FizzBuzz"
+  elsif number % 3 == 0
     return "fizz"
   elsif number % 5 == 0
     return "buzz"
-  end
+end
 end
 end
