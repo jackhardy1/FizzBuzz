@@ -15,5 +15,10 @@ end
 it "It wlll not return fizz if number is not divisible by 3" do
   expect(fizzbuzz.function(7)).not_to eq "fizz"
 end
+
+it "It will return buzz if number is divisible by 5" do
+  expect(fizzbuzz.function(5)).to eq "buzz"
+end
+
 end
 end
